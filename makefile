@@ -3,7 +3,9 @@ CFLAGS  = -O3
 OPTION  = -std=c++11
 LIBS    = -L$(LIB) -lboost_system -lboost_thread -pthread -lpthread
 
-# Used a quick install of boost, header only files needed for boost
+# Used a quick install of boost, header only files needed 
+# Set the apt boost location or comment it out if boost 1.80+ is installed (sudo apt-get install libboost-all-dev) 
+# Do check boost version, need 1.80+
 LIB = ../boost_1_80_0
 
 all: server client
