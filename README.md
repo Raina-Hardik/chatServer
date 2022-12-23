@@ -16,10 +16,3 @@ Sample:
     ./client CLI 127.0.0.1 8000
     ./client CL2 127.0.0.1 8000
 ```
-> Hamza Wasim(9920103068)
-
-> Vedaant Mallick(9920103069)
-
-> Hardik Raina(9920103079)
-
-> Manan Singhal(9920103086)
