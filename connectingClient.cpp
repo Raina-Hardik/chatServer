@@ -50,7 +50,7 @@ private:
             boost::asio::async_read(socketCon,
                                     boost::asio::buffer(msgReader, msgReader.size()),
                                     boost::bind(&client::readHandler, this, _1));
-        } else {								// No more to read
+        } else {								
             closeImplement();
         }
     }
