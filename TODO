@@ -1,0 +1,7 @@
+1. Security
+2. Memory inefficient
+3. Work out a P2P structure next
+4. Delegate a handler for connection aborting
+5. Client side connection termination code is not gettting accessed
+6. Server and client being on different platforms don't cooperate well
+7. Test it using different connections, only tested on localhost and local machine IP
